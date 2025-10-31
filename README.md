@@ -1,4 +1,13 @@
-# 🚀 AWS CI/CD Pipeline on AWS
+## 🧭 Repository Context
+
+This repository is part of a modularization effort to separate each of the **8 most common AWS architectures** into independent projects.  
+The code and resources here were **extracted from a general repository** that originally contained all 8 architectures, to improve clarity, maintainability, and reuse.
+
+🔗 [Original Repository – AWS Architectures Collection](https://github.com/hongzz0618/aws-architecture-collection)
+
+---
+
+## 🚀 AWS CI/CD Pipeline on AWS
 
 This project shows how to build a simple and scalable **CI/CD pipeline** using AWS services.  
 It automates the process of building, testing, and deploying a Node.js application using **Infrastructure as Code** with Terraform.
