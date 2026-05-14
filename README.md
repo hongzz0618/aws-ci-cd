@@ -57,3 +57,12 @@ It automates the process of building, testing, and deploying a Node.js applicati
 - `appspec.yml` and lifecycle hooks for CodeDeploy
 - Example Node.js app with a simple endpoint
 - Deployment scripts and usage instructions
+
+---
+
+## Configuration and Secrets
+
+Use `terraform.tfvars.example` as the safe template for local configuration.
+Do not commit real `terraform.tfvars` files or secret values.
+
+Store real credentials and tokens in GitHub Actions secrets, AWS CodeConnections, or environment variables.
